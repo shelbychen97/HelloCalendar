@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A2240AB1FE48A8F00E14EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2240AA1FE48A8F00E14EB2 /* AppDelegate.swift */; };
+		5A2240AD1FE48A8F00E14EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2240AC1FE48A8F00E14EB2 /* ViewController.swift */; };
+		5A2240B01FE48A8F00E14EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2240AE1FE48A8F00E14EB2 /* Main.storyboard */; };
+		5A2240B21FE48A8F00E14EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2240B11FE48A8F00E14EB2 /* Assets.xcassets */; };
+		5A2240B51FE48A8F00E14EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2240B31FE48A8F00E14EB2 /* LaunchScreen.storyboard */; };
+		5A2240C01FE48A8F00E14EB2 /* HelloCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2240BF1FE48A8F00E14EB2 /* HelloCalendarTests.swift */; };
+		5ABC23551FE4D39C00D069FE /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABC23541FE4D39C00D069FE /* CustomCell.swift */; };
+		D04B7455ABFAD871D8598CC8 /* Pods_HelloCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EFFDCF2EAA071F57451419 /* Pods_HelloCalendar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A2240BC1FE48A8F00E14EB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A22409F1FE48A8F00E14EB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A2240A61FE48A8F00E14EB2;
+			remoteInfo = HelloCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16EFFDCF2EAA071F57451419 /* Pods_HelloCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2240A71FE48A8F00E14EB2 /* HelloCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2240AA1FE48A8F00E14EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A2240AC1FE48A8F00E14EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A2240AF1FE48A8F00E14EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A2240B11FE48A8F00E14EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A2240B41FE48A8F00E14EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A2240B61FE48A8F00E14EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2240BB1FE48A8F00E14EB2 /* HelloCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2240BF1FE48A8F00E14EB2 /* HelloCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCalendarTests.swift; sourceTree = "<group>"; };
+		5A2240C11FE48A8F00E14EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ABC23541FE4D39C00D069FE /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		8401B6836AD0615932D17262 /* Pods-HelloCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCalendar/Pods-HelloCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		E97734F08426EAB1F107DE17 /* Pods-HelloCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCalendar/Pods-HelloCalendar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A2240A41FE48A8F00E14EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B7455ABFAD871D8598CC8 /* Pods_HelloCalendar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2240B81FE48A8F00E14EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51608CDA03464645F1805460 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8401B6836AD0615932D17262 /* Pods-HelloCalendar.debug.xcconfig */,
+				E97734F08426EAB1F107DE17 /* Pods-HelloCalendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A22409E1FE48A8F00E14EB2 = {
+			isa = PBXGroup;
+			children = (
+				5A2240A91FE48A8F00E14EB2 /* HelloCalendar */,
+				5A2240BE1FE48A8F00E14EB2 /* HelloCalendarTests */,
+				5A2240A81FE48A8F00E14EB2 /* Products */,
+				51608CDA03464645F1805460 /* Pods */,
+				7CBF707DFBCA98B70972E646 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A2240A81FE48A8F00E14EB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A2240A71FE48A8F00E14EB2 /* HelloCalendar.app */,
+				5A2240BB1FE48A8F00E14EB2 /* HelloCalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A2240A91FE48A8F00E14EB2 /* HelloCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				5A2240AA1FE48A8F00E14EB2 /* AppDelegate.swift */,
+				5A2240AC1FE48A8F00E14EB2 /* ViewController.swift */,
+				5A2240AE1FE48A8F00E14EB2 /* Main.storyboard */,
+				5A2240B11FE48A8F00E14EB2 /* Assets.xcassets */,
+				5A2240B31FE48A8F00E14EB2 /* LaunchScreen.storyboard */,
+				5A2240B61FE48A8F00E14EB2 /* Info.plist */,
+				5ABC23541FE4D39C00D069FE /* CustomCell.swift */,
+			);
+			path = HelloCalendar;
+			sourceTree = "<group>";
+		};
+		5A2240BE1FE48A8F00E14EB2 /* HelloCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A2240BF1FE48A8F00E14EB2 /* HelloCalendarTests.swift */,
+				5A2240C11FE48A8F00E14EB2 /* Info.plist */,
+			);
+			path = HelloCalendarTests;
+			sourceTree = "<group>";
+		};
+		7CBF707DFBCA98B70972E646 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16EFFDCF2EAA071F57451419 /* Pods_HelloCalendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A2240A61FE48A8F00E14EB2 /* HelloCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2240C41FE48A8F00E14EB2 /* Build configuration list for PBXNativeTarget "HelloCalendar" */;
+			buildPhases = (
+				E976ADAE17C31AF66BDB3080 /* [CP] Check Pods Manifest.lock */,
+				5A2240A31FE48A8F00E14EB2 /* Sources */,
+				5A2240A41FE48A8F00E14EB2 /* Frameworks */,
+				5A2240A51FE48A8F00E14EB2 /* Resources */,
+				E24C56747854BDB69F72AB3C /* [CP] Embed Pods Frameworks */,
+				24C2CCE115B73F9562882AC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCalendar;
+			productName = HelloCalendar;
+			productReference = 5A2240A71FE48A8F00E14EB2 /* HelloCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A2240BA1FE48A8F00E14EB2 /* HelloCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2240C71FE48A8F00E14EB2 /* Build configuration list for PBXNativeTarget "HelloCalendarTests" */;
+			buildPhases = (
+				5A2240B71FE48A8F00E14EB2 /* Sources */,
+				5A2240B81FE48A8F00E14EB2 /* Frameworks */,
+				5A2240B91FE48A8F00E14EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A2240BD1FE48A8F00E14EB2 /* PBXTargetDependency */,
+			);
+			name = HelloCalendarTests;
+			productName = HelloCalendarTests;
+			productReference = 5A2240BB1FE48A8F00E14EB2 /* HelloCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A22409F1FE48A8F00E14EB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "shelby chen";
+				TargetAttributes = {
+					5A2240A61FE48A8F00E14EB2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5A2240BA1FE48A8F00E14EB2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5A2240A61FE48A8F00E14EB2;
+					};
+				};
+			};
+			buildConfigurationList = 5A2240A21FE48A8F00E14EB2 /* Build configuration list for PBXProject "HelloCalendar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A22409E1FE48A8F00E14EB2;
+			productRefGroup = 5A2240A81FE48A8F00E14EB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A2240A61FE48A8F00E14EB2 /* HelloCalendar */,
+				5A2240BA1FE48A8F00E14EB2 /* HelloCalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A2240A51FE48A8F00E14EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2240B51FE48A8F00E14EB2 /* LaunchScreen.storyboard in Resources */,
+				5A2240B21FE48A8F00E14EB2 /* Assets.xcassets in Resources */,
+				5A2240B01FE48A8F00E14EB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2240B91FE48A8F00E14EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C2CCE115B73F9562882AC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCalendar/Pods-HelloCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24C56747854BDB69F72AB3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelloCalendar/Pods-HelloCalendar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCalendar/Pods-HelloCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E976ADAE17C31AF66BDB3080 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A2240A31FE48A8F00E14EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2240AD1FE48A8F00E14EB2 /* ViewController.swift in Sources */,
+				5ABC23551FE4D39C00D069FE /* CustomCell.swift in Sources */,
+				5A2240AB1FE48A8F00E14EB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2240B71FE48A8F00E14EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2240C01FE48A8F00E14EB2 /* HelloCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A2240BD1FE48A8F00E14EB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A2240A61FE48A8F00E14EB2 /* HelloCalendar */;
+			targetProxy = 5A2240BC1FE48A8F00E14EB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A2240AE1FE48A8F00E14EB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2240AF1FE48A8F00E14EB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A2240B31FE48A8F00E14EB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2240B41FE48A8F00E14EB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A2240C21FE48A8F00E14EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A2240C31FE48A8F00E14EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A2240C51FE48A8F00E14EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8401B6836AD0615932D17262 /* Pods-HelloCalendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HelloCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A2240C61FE48A8F00E14EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97734F08426EAB1F107DE17 /* Pods-HelloCalendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HelloCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A2240C81FE48A8F00E14EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HelloCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCalendar.app/HelloCalendar";
+			};
+			name = Debug;
+		};
+		5A2240C91FE48A8F00E14EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HelloCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCalendar.app/HelloCalendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A2240A21FE48A8F00E14EB2 /* Build configuration list for PBXProject "HelloCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2240C21FE48A8F00E14EB2 /* Debug */,
+				5A2240C31FE48A8F00E14EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2240C41FE48A8F00E14EB2 /* Build configuration list for PBXNativeTarget "HelloCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2240C51FE48A8F00E14EB2 /* Debug */,
+				5A2240C61FE48A8F00E14EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2240C71FE48A8F00E14EB2 /* Build configuration list for PBXNativeTarget "HelloCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2240C81FE48A8F00E14EB2 /* Debug */,
+				5A2240C91FE48A8F00E14EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A22409F1FE48A8F00E14EB2 /* Project object */;
+}
