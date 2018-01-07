@@ -9,35 +9,32 @@
 import UIKit
 import JTAppleCalendar
 
-class ViewController: UIViewController,UITextFieldDelegate {
+class ViewController: UIViewController {
     @IBOutlet weak var calendarView: JTAppleCalendarView!
     @IBOutlet weak var year: UILabel!
     @IBOutlet weak var month: UILabel!
     @IBOutlet weak var eventTextField: UITextField!
+    @IBOutlet weak var eventTableView: UITableView!
     
     let outsideMonthColor = UIColor(colorWithHexValue: 0x584a66)
     let monthColor = UIColor.white
     let selectedMonthColor = UIColor(colorWithHexValue: 0x3a294b)
     let currentDateSelectedViewColor = UIColor(colorWithHexValue: 0x4e3f5d)
     
+    
     let formatter = DateFormatter()
+    
+    var temporaryEvent: Event?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        eventTextFied.delegate = self
+        self.eventTableView.delegate = self
+        self.eventTableView.dataSource = self
         setupCalendarView()
-    }
-    
-    //MARK: UITextFieldDelegate
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        // Hide the keyboard.
-        textField.resignFirstResponder()
-        return true
-    }
-    
-    func textFieldDidEndEditing(_ textField: UITextField){
         
     }
+
+    
     func handleCelltextColor(view: JTAppleCell?, cellState: CellState){
         guard let validCell = view as? CustomCell else { return }
         
@@ -93,6 +90,30 @@ class ViewController: UIViewController,UITextFieldDelegate {
     }
 
 
+}
+
+extension ViewController: UITextFieldDelegate {
+    
+    
+    
+}
+
+extension ViewController: UITableViewDataSource, UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return TestData.sampleEvents.count
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var eventCellView: UITableViewCell
+        eventCellView = tableView.dequeueReusableCell(withIdentifier: "eventCell")!
+        eventCellView.textLabel?.text = TestData.sampleEvents[indexPath.row].description
+        return eventCellView
+    }
 }
 
 extension ViewController: JTAppleCalendarViewDataSource{
